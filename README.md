@@ -6,4 +6,5 @@ It contains the following files.
 + ReadME.md: This file.  It describes a summary of the repository.
 + run_analysis.R: This is the R script that runs in this project.
 + CodeBook.md: It describes the details of run_analysis.R.
++ tidy_data.txt: The tidy data set extracted in this project.
 
