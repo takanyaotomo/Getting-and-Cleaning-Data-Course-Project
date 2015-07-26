@@ -61,7 +61,7 @@ Replace column names that word is abbreviated by using names() function and gsub
 + Gyro: Gyroscope
 + Mag: Magnitude
 
-## 5 From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
+## 5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 Calculate the mean of each column from "dataset_mean_sd_join" by using aggregate() function and generate the new dataset "tidy_data". Grouped columns are "subject", "activity" and "activitiy_label" in "tidy_data" and calculated columns are from the second to 80th.
 Sort "tidy_data" in ascending order based on the column name "subject" and "activity" and generate the new dataset "tidy_data_ordered".
 Finally, write "tidy_data_ordered" to the file "tidy_data.txt" by using write.table() function.
